@@ -33,6 +33,7 @@ public class FileObject {
 	 * @throws FileObjectException
 	 *             when FileObject cannot be created
 	 */
+	
 	public FileObject(String name) throws FileObjectException {
 		String[] fi = files;
 		if (testingMode > 0) {
